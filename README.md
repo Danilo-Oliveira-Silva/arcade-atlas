@@ -46,6 +46,8 @@
 </div>
 
 
+
+
 Android project for a game and stream search app. This research project was built using Kotlin, Retrofit, and Jetpack Compose.
 
 The goal of the project is to build a data visualizer for games. The app allows you to query data about games, search for games, and view the top Twitch streams for a given game.
@@ -61,6 +63,8 @@ The data is obtained through the Twitch and IGDB APIs.
         <td><img src="https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white"></td>
         <td><img src="https://img.shields.io/badge/Kotlin-B125EA?style=for-the-badge&logo=kotlin&logoColor=white"></td>
         <td><img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white"></td>
+        <td><img src="https://img.shields.io/badge/gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white"></td>
+        <td><img src="https://img.shields.io/badge/material%20design-757575?style=for-the-badge&logo=material%20design&logoColor=white"></td>
     </tr>
 </table>
 
