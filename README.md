@@ -24,7 +24,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#architecture">Architecture</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -34,18 +33,8 @@
 ## About The Project
 
 <div align="center">
-    <table border=0>
-        <tr>
-            <td><img src="images/screenshot-1.png" width="200"></td>
-            <td><img src="images/screenshot-2.png" width="200"></td>
-            <td><img src="images/screenshot-3.png" width="200"></td>
-            <td><img src="images/screenshot-4.png" width="200"></td>
-            <td><img src="images/screenshot-5.png" width="200"></td>
-        </tr>
-    </table>
+    <img src="images/banner.png" alt="logo" width="1200" />
 </div>
-
-
 
 
 Android project for a game and stream search app. This research project was built using Kotlin, Retrofit, and Jetpack Compose.
@@ -103,35 +92,23 @@ fun provideApi() : ApiInterface {
 
 ## Usage
 
-This project requires authentication on Twitch API.
-
 <div align="center">
     <table border=0>
         <tr>
             <td><img src="images/screenshot-1.png" width="200"></td>
             <td><img src="images/screenshot-2.png" width="200"></td>
+            <td><img src="images/screenshot-3.png" width="200"></td>
+            <td><img src="images/screenshot-4.png" width="200"></td>
+            <td><img src="images/screenshot-5.png" width="200"></td>
         </tr>
     </table>
 </div>
 
+This project requires authentication on Twitch API.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Architecture
-
-This system works with several services for its operation:
-
-- Auth API: This API was built in ASP.NET 6.0 using a layered architecture and Entity Framework Core to connect to a MySQL database, also in a Docker container. The repository pattern was used for database communication.
-
-- Weather.API: This API, also built in ASP.NET, uses clean architecture. There are features to be developed, and not all will have the API as the presentation layer. Its infrastructure layer connects to a MongoDB database with a direct connection. The CQRS pattern and mediator were also used to invoke routes during its construction.
-
-- Gateway API: Built in ASP.NET with the Ocelot package for routing, it serves as the single point of connection to other APIs in the container orchestration.
-
-- WebApp: Front-end built with Angular 18 using components with Bootstrap 5.
-
-<img src="images/diagram.png" />
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## License
 
